@@ -1,105 +1,22 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="<$BlogLanguageDirection$>">
+
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>JMillMedia Application</title>
-<style type="text/css">
-<!--
-h1, h2, h3	{color: #fff;}
-		
-a		{text-decoration: none;
-		color: #fff;}
-
-a:hover	{background: #006600;
-		color: #0066cc;}
-
-body {
-    font-family: Open Sans, Arial, sans-serif;
-    font-size: 16px;
-    background: url('https://4ab6828e5b527b154631c76503820ebd81fec524.googledrive.com/host/0B1zg0J5JLsOWVlhxYUgyZzNpSk0/') 50% 15%, url('https://8271a3a459daa3b908a2c68fbf6d3616916085f2.googledrive.com/host/0B1zg0J5JLsOWSk5tQ1B6YTc5QkE/');
-	background-size:75% 25%,100%;
-    background-repeat: no-repeat, repeat;
-    background-position:fixed;
-}
-.centerit {
-	text-align: center;
-}
-h1.move {
-	float: align-bottom; margin-left: 5px; margin-right: 5px; margin-bottom: 650px;
+<style>
+iframe {
+    display: block;       /* iframes are inline by default */
+    background: #000;
+    border: none;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 100vw;
 } 
-h2.move1 {
-	float: align-top; margin-left: 5px; margin-right: 5px; margin-top: -700px;
-} 
-h3.move2 {
-	float: align-bottom; margin-left: 5px; margin-right: 5px; margin-top: 100px;
-} 
-#menubar {background-color: #0099cc; color: black; height: 40px; width:75;}
-
-.menu {float: left; padding; 0.6em 3em 0.1em 0.5em; cursor: default;}
-
-.menu ul {display: none; position: absolute; background-color: white; list-style: none; margin: 2px 5px 5px 0; padding: 0;}
-
-.menu ul li {display: block; font-size: small; padding: 0.2em;}
-
-div.menu:hover ul{margin: 0; padding: 0; display: block; background-color: white; color: #303032;}
-
-div.menu ul li: hover {background-color: #000;}
--->
-
 </style>
-<script type="text/javascript">
-function Click(){
-if(document.jmillClick.thebox.checked == false)
-{
- alert("You did not select submit!");
- return false;
- }
- return true;
-}
-function copyRight() {
-    var lastModDate = document.lastModified
-    var lastModDate = lastModDate.substring(0,10)
-    displayDateLast.innerHTML = "<h2>Copyright &copy; JMill Media Productions"+"<br />This document was last modified by James JMill Miller "+lastModDate+".</h2>"    
-}
-</script>
 </head>
+<body>
 
-<body onLoad = "copyRight()">
-
-<header>
-<h1 class="move"><div align="center">JMill Media Productions Application</div>
-</header>
-
-<h1 class="move">
-<div id="menubar">
-<a href=""><div id="menu1" class="menu">Home Page &nbsp; &nbsp;<span class="section"> &nbsp; | </span>
-<ul>
-</ul></div></a>
-<a href=""><div id="menu2" class="menu">About Me &nbsp; &nbsp;<span class="section"> &nbsp; | </span>
-<ul>
-</ul></div></a>
-</h1>
-
-<div align="center">
-<footer>
-<div id="displayDateLast">
-</div>
-</footer>
-</div>
-</h1>
-
-<h2 class="move1">
-<form name="jmillClick" method="post" action="http://www.facebook.com/jmillmedia" class="centerit" id="fanForm">
-      <input type="checkbox" name="thebox" value="Agree"><input type="submit" value="Submit" onClick="return Click()" />
-	 <input type="reset" value="Reset">
-</form>
-</div>
-</h2>
-
-<div align="center">
-<h3 class="move2">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eq4vChsBJS4" frameborder="0" allowfullscreen></iframe></h3
-</div>
+<div align="center"><video width="100%" controls>
+  <source src="http://dl.dropboxusercontent.com/s/8yby3mc2mfyyznt/vl_240P_224.0k_4373876.mp4?dl=0" type="video/mp4">
+</video></div>   
 
 </body>
 </html>
